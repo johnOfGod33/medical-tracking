@@ -1,0 +1,18 @@
+.titre{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(119, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(18, 18, 18, .2);
+    color: white;
+    font-size: 20px;
+}
+.profilPage{
+    position: relative;
+    top: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

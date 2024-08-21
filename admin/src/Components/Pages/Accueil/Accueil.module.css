@@ -1,0 +1,12 @@
+.accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accueil section{
+    height: 12vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

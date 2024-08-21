@@ -1,0 +1,20 @@
+.docteurList{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    left: 0;
+    
+}
+
+.docteurList select{
+    height: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 15px;
+}

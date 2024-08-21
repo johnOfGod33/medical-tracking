@@ -1,0 +1,39 @@
+Consultation show
+
+
+    axios.get("http://localhost:5000/carnet/analyses")
+    .then((res)=>{
+      setAnalyse(res.data)
+    })
+    .catch((error)=>console.log(error))
+
+    axios.get("http://localhost:5000/carnet/prescriptions")
+    .then((res)=>{
+      setPrescription(res.data)
+    })
+    .catch((error)=>console.log(error))
+
+
+//Prescription
+
+ 	{
+            prescriptionList && prescriptionList.map((prescription, indice)=>{
+
+              return prescription.id_consultation===consultation.id_consultation &&  <section key={indice}>
+                  <article>Nom du produit : {prescription.nomproduit_prescription} </article>
+                  <aside>Dosage : {prescription.dosage_prescription} </aside>
+                </section>
+            })
+          }
+
+//analyse
+
+	{
+            analyseList && analyseList.map((analyse, indice)=>{
+
+              return analyse.id_consultation===consultation.id_consultation &&  <section key={indice}>
+                  <article>Nom analyse : {analyse.nom_analyse} </article>
+                  <aside>Resultat : {analyse.resultat_analyse} </aside>
+                </section>
+            })
+          }

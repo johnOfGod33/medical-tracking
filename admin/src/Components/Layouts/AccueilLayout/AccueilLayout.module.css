@@ -1,0 +1,11 @@
+.accueilLayout{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../../../client/src/Assets/img/ordinateur-equipement-medical.jpg");
+    background-position: center;
+    background-size: cover;
+}

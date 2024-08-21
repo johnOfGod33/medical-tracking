@@ -1,0 +1,76 @@
+/*color : #4f46e5,#7d5ef7*/
+.header{
+    position: fixed;
+    height: 18vh;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 2px 2px 5px 2px rgb(18, 18, 18, .1);
+    z-index: 10;
+    
+
+}
+.header menu{
+    height: 15vh;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+.header nav{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.header ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header li{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(50, 50, 255);
+    border-radius: 50px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil{
+    height: 15vh;
+    width: 40%;
+    
+}
+
+.profil h1{
+    font-size: 48px;
+    color: rgb(50, 50, 255);;
+}
+.logo{
+    height: 18vh;
+    width: 30%;
+}
+.logo span{
+    font-size: 30px;
+}

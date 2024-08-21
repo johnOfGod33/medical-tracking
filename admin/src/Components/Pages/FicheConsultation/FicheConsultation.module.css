@@ -1,0 +1,35 @@
+ .fiche{
+    position: relative;
+    top: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.fiche section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 20vh;
+    min-width: 50%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 2px 2px 5px rgb(18, 18, 18, .1);
+}
+
+.fiche input{
+    height: 15px;
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 110, 255);
+    padding-left: 15px;
+}
+
+
+/*#e5e7eb
+
+*/

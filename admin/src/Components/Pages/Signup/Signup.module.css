@@ -1,0 +1,22 @@
+.signup{
+    min-height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 140, 255, 0.2);
+    box-shadow: 2px 2px 2px rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.signup input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 15px;
+}
